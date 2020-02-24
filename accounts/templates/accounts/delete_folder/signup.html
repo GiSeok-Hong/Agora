@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+{% block body %}
+
+    <form action = "" method="POST">
+        {% csrf_token %}
+        <fieldset style="width:600px">
+            <legend>회원가입</legend>
+            <p>이름 : <input type="text" name="name" placeholder="이름 입력"/></p>
+            <p>나이 : <input type="number" name="age" placeholder="나이 입력"/></p>
+            <p>비밀번호 : <input type="password" name="pwd" placeholder="비밀번호"/></p>
+            <p>사진 : <input type="file"/></p>
+            <p>출생일자 : <input type="date"/></p>
+            <p>성별 : <input type="radio" name="gender" value="남"/>남자
+                    <input type="radio" name="gender" value="여"/>여자
+            </p>
+            <p>자기소개</p>
+            <p><textarea rows="20" cols="50"></textarea>
+            </p>
+
+            <p><button onclick="자바스크립트함수"/>회원 가입</button></p>
+
+        </fieldset>
+    </form>
+
+{% endblock %}
