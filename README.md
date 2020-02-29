@@ -47,7 +47,7 @@ Agora는 약 1개월 동안 진행한 [4차산업 선도인력 - 클라우드 �
 
 Github 를 통해 작업을 했습니다.
 
-작업 당시 Git에 대한 지식이 부족하여  Commit Message Convention을 지키지 못했습니다.
+작업 당시 Git에 대한 지식이 부족하여 Commit Message Convention을 지키지 못했습니다.
 
 
 
